@@ -14,12 +14,12 @@
          <children>
             <HBox alignment="CENTER" prefHeight="39.0">
                <children>
-                  <Slider fx:id="slider" />
+                  <Slider fx:id="slider" prefHeight="24.0" prefWidth="180.0" />
                   <Button mnemonicParsing="false" onAction="#handleButtonAction" text="open file" />
                   <Button mnemonicParsing="false" onAction="#btPlayVideo" text="play" />
                   <Button mnemonicParsing="false" onAction="#btPauseVideo" text="pause" />
                   <Button mnemonicParsing="false" onAction="#btStopVideo" text="stop" />
-                  <Button mnemonicParsing="false" onAction="#btSlowerVideo" prefHeight="32.0" text="&lt;&lt;&lt;" textAlignment="CENTER" />
+                  <Button mnemonicParsing="false" onAction="#btSlowerVideo" text="&lt;&lt;&lt;" textAlignment="CENTER" />
                   <Button mnemonicParsing="false" onAction="#btSlowVideo" text="&lt;&lt;" />
                   <Button mnemonicParsing="false" onAction="#btFastVideo" text="&gt;&gt;" />
                   <Button mnemonicParsing="false" onAction="#btFasterVideo" text="&gt;&gt;&gt;" />
